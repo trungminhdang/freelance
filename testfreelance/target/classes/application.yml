@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  profiles: local
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: none
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://leadgen-postgres.cluster-ccko5khb7f0s.us-east-1.rds.amazonaws.com:5432/leadgen_db
+    username: prospectroot
+    password: giuaw809%$%^j
+
+server:
+  port: 8085

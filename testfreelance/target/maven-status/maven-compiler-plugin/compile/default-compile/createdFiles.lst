@@ -1,0 +1,8 @@
+com\kaydang\java\config\LocalDataSourceConfiguration.class
+com\kaydang\java\Application.class
+com\kaydang\java\controller\CategoryController.class
+com\kaydang\java\entity\Category.class
+com\kaydang\java\repo\CategoryRepo.class
+com\kaydang\java\config\SwaggerConfig.class
+com\kaydang\java\config\ServicesConfiguration.class
+com\kaydang\java\service\CategoryService.class
